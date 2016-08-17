@@ -1,0 +1,3 @@
+#!/bin/bash
+
+if [ $(uname) == Darwin ]; then stat -x $1; else stat $1; fi 
